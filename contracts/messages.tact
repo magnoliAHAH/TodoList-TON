@@ -13,3 +13,7 @@ message CompleteTodo {
 message InternalComplete {
     excess: Address;
 }
+
+message NewTodoResponse {
+    seqno: Int as uint256;
+}
